@@ -11,6 +11,43 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 0) do
+ActiveRecord::Schema.define(version: 20140201034251) do
+
+  create_table "businesses", force: true do |t|
+    t.string   "business_id"
+    t.string   "name"
+    t.string   "address"
+    t.string   "city"
+    t.string   "state"
+    t.string   "postal_code"
+    t.string   "phone_number"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "businesses", ["business_id"], name: "index_businesses_on_business_id", using: :btree
+
+  create_table "inspections", force: true do |t|
+    t.string   "business_id"
+    t.integer  "score"
+    t.date     "date"
+    t.text     "Description"
+    t.string   "type"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "inspections", ["business_id"], name: "index_inspections_on_business_id", using: :btree
+
+  create_table "violations", force: true do |t|
+    t.string   "business_id"
+    t.date     "date"
+    t.string   "code"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "violations", ["business_id"], name: "index_violations_on_business_id", using: :btree
 
 end
