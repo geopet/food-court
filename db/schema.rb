@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140201034251) do
+ActiveRecord::Schema.define(version: 20140201035445) do
 
   create_table "businesses", force: true do |t|
     t.string   "business_id"
@@ -32,7 +32,7 @@ ActiveRecord::Schema.define(version: 20140201034251) do
     t.integer  "score"
     t.date     "date"
     t.text     "Description"
-    t.string   "type"
+    t.string   "inspection_type"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
