@@ -1,0 +1,22 @@
+<h1><%= @business.name %></h1>
+<div>
+  <%= @business.name %><br />
+  <%= @business.address %><br />
+  <%= @business.city %>, <%= @business.state %> <%= @business.postal_code %><br />
+  <%= @business.phone_number %>
+</div>
+
+<div>
+  <h2>Inspections: <%= @business.inspections.count %></h2>
+  <% @business.inspections.each do |inspection| %>
+    date: <%= inspection.date %>, type: <%= inspection.inspection_type %>,
+    score: <%= inspection.score %>, description: <%= inspection.Description %><br />
+  <% end %>
+</div>
+
+<div>
+  <h2>Violations: <%= @business.violations.count %></h2>
+  <% @business.violations.each do |violation| %>
+    date: <%= violation.date %>, description: <%= violation.description %><br />
+  <% end %>
+</div>
