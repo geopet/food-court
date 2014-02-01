@@ -35,6 +35,8 @@ end
 group :development do
   gem 'awesome_print'
   gem 'interactive_editor'
+  gem 'better_errors'
+  gem 'binding_of_caller'
 end
 
 # Use ActiveModel has_secure_password
