@@ -1,0 +1,191 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/environment.rb": [
+        null,
+        1,
+        null,
+        null,
+        1
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/application.rb": [
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/boot.rb": [
+        null,
+        1,
+        null,
+        1
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/environments/test.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/backtrace_silencers.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/filter_parameter_logging.rb": [
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/inflections.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/mime_types.rb": [
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/secret_token.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/session_store.rb": [
+        null,
+        null,
+        1
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/initializers/wrap_parameters.rb": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/config/routes.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/app/controllers/businesses_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null
+      ],
+      "/Users/gpetrie/Documents/code/prototype/inspector/app/models/business.rb": [
+        1,
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1391279355
+  }
+}

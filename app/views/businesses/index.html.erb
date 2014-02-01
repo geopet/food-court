@@ -2,7 +2,7 @@
 
 <ul>
 <% @businesses.each do |business| %>
-  <li>
+  <li class='business'>
     <%= link_to business.name, business %>
     |
     Inspections: <%= business.inspections.count %>
