@@ -7,8 +7,14 @@ feature 'view the businesses page' do
   end
 
   scenario 'should list a variety of businesses' do
-    pending 'need to set up factories'
-    #visit businesses_path
-    #expect(page).to have_css('li')
+    create(:business)
+    visit businesses_path
+    expect(page).to have_css('li.business')
+  end
+
+  scenario 'should be able to see business detail links' do
+    business = create(:business)
+    visit businesses_path
+    expect(page).to have_link(business.name)
   end
 end
