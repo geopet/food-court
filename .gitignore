@@ -16,3 +16,8 @@
 /tmp
 
 /coverage
+.vagrant
+Vagrantfile
+zsh_config.sh
+vim_config.sh
+git_config.sh

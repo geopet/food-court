@@ -14,7 +14,7 @@ development:
   database: inspector_development
   pool: 5
   username: root
-  password: your_password
+  password: mysql_password
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -25,7 +25,7 @@ test:
   database: inspector_test
   pool: 5
   username: root
-  password: your_password
+  password: mysql_password
 
 production:
   adapter: mysql2
@@ -34,4 +34,3 @@ production:
   pool: 5
   username: root
   password:
-  socket: /tmp/mysql.sock
